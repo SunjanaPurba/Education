@@ -1,0 +1,74 @@
+.body{
+    margin: 40px 100px;
+}
+.main-section h1{
+    text-align: center;
+    transition-duration: 2s;
+}
+.main-section h1:hover{
+    color: aliceblue;
+}
+.main-section{
+    background-color: chocolate;
+    gap: 30px;
+    margin: 60px 30px;
+    border: 2px solid black;
+    border-start-start-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition-duration: 2s;
+}
+
+.education-section img {
+    width: 200px;
+    height: 170px;
+    padding-left: 50px;
+}
+
+.education-section {
+    display: flex;
+    justify-content: center;
+}
+
+.education-section div {
+    background-color: lightblue;
+    padding: 50px;
+    border-top-right-radius: 30px;
+    border: 5px solid black;
+    margin: 50px;
+    transition-duration: 2s;
+}
+
+.main-section:hover {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+.nfs-section:hover {
+    background-color: blanchedalmond;
+    padding: 30px;
+    color: firebrick;
+}
+
+.cvc-section:hover {
+    background-color: azure;
+    padding: 30px;
+    color: forestgreen;
+}
+
+.baiust-section:hover {
+    background-color: mistyrose;
+    padding: 30px;
+    color: dodgerblue;
+}
+
+.education-section h2 {
+    text-align: center;
+}
+
+.education-section p {
+    width: 240px;
+}
+
+.education-section h1 {
+    text-align: center;
+}
